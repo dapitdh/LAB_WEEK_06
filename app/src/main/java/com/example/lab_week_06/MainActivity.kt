@@ -53,8 +53,128 @@ class MainActivity : AppCompatActivity() {
                 "Curious George",
                 "Award winning investigator",
                 "https://cdn2.thecatapi.com/images/bar.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.Bengal,
+                "Simba",
+                "King of the sofa jungle",
+                "https://cdn2.thecatapi.com/images/4tu.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.BritishShorthair,
+                "Luna",
+                "Dreamy night stalker",
+                "https://cdn2.thecatapi.com/images/mtk.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.MaineCoon,
+                "Thor",
+                "Gentle giant with thunder paws",
+                "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.Siamese,
+                "Cleo",
+                "Talkative diva of the house",
+                "https://cdn2.thecatapi.com/images/ai6.jpg"
+            ),
+            CatModel(
+                Gender.Unknown,
+                CatBreed.Ragdoll,
+                "Shadow",
+                "Sleeps all day, hunts at night",
+                "https://cdn2.thecatapi.com/images/8jt.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.Abyssinian,
+                "Leo",
+                "Explorer of forbidden shelves",
+                "https://cdn2.thecatapi.com/images/9ru.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.Birman,
+                "Bella",
+                "Sweet but dangerous",
+                "https://cdn2.thecatapi.com/images/2oo.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.Sphynx,
+                "Rex",
+                "Alien overlord in disguise",
+                "https://cdn2.thecatapi.com/images/aqe.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.NorwegianForestCat,
+                "Freya",
+                "Viking princess on patrol",
+                "https://cdn2.thecatapi.com/images/b8b.jpg"
+            ),
+            CatModel(
+                Gender.Unknown,
+                CatBreed.TurkishVan,
+                "Marble",
+                "Water-loving adventurer",
+                "https://cdn2.thecatapi.com/images/c2d.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.ScottishFold,
+                "Ollie",
+                "Ears folded, eyes wide open",
+                "https://cdn2.thecatapi.com/images/7ii.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.Persian,
+                "Misty",
+                "Cloud of fur and elegance",
+                "https://cdn2.thecatapi.com/images/3rb.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.Burmese,
+                "Rocky",
+                "Champion napper of the year",
+                "https://cdn2.thecatapi.com/images/bpe.jpg"
+            ),
+            CatModel(
+                Gender.Unknown,
+                CatBreed.DevonRex,
+                "Pixie",
+                "Tiny but mischievous",
+                "https://cdn2.thecatapi.com/images/d2f.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.Savannah,
+                "Nala",
+                "Wild spirit, domestic heart",
+                "https://cdn2.thecatapi.com/images/6kl.jpg"
+            ),
+            CatModel(
+                Gender.Male,
+                CatBreed.Oriental,
+                "Jasper",
+                "Guardian of the snacks",
+                "https://cdn2.thecatapi.com/images/5r7.jpg"
+            ),
+            CatModel(
+                Gender.Female,
+                CatBreed.Tonkinese,
+                "Zara",
+                "Purring bundle of mystery",
+                "https://cdn2.thecatapi.com/images/6vf.jpg"
             )
         )
+
 
 
         catAdapter.setData(cats)
